@@ -1,0 +1,8 @@
+c1=float(input("Comprimento da primeira caixa?"))
+c2=float(input("Comprimento da segunda caixa?"))
+res1=c1**2
+res2=c2**2
+if res1==res2:
+    print("São iguais")
+else:
+    print("São diferentes")

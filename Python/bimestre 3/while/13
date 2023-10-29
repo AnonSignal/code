@@ -1,0 +1,10 @@
+i=int(input("Início:"))
+f=int(input("Final:"))
+n=int(input("Qual tabuada?"))
+if i<f:
+    while i<=f:
+        tab=n*i
+        print(tab)
+        i+=1
+else:
+    print("Valores inválidos!")

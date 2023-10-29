@@ -1,0 +1,4 @@
+num=2
+while 0==0:
+    print(f"{num}")
+    num=num+1

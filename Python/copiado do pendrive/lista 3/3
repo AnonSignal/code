@@ -1,0 +1,5 @@
+n=int(input("Número inicial?"))
+n2=int(input("Número final?"))
+while n<=n2:
+    print(n)
+    n+=1

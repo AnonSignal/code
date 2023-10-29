@@ -1,0 +1,141 @@
+.container {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.Amazonia {
+  color: #00FF00;
+}
+
+.Cerrado {
+  color: #DAA520;
+}
+
+.Mata {
+  color: #7CFC00;
+}
+
+.Pampa {
+  color: #ADFF2F;
+}
+
+.Pantanal {
+  color: #8FBC8F;
+}
+
+.Caatinga {
+  color: #FFA500;
+}
+
+.Zonas {
+  color: #00BFFF;
+}
+
+body {
+  background-color: #606C38;
+}
+
+h1 {
+  background-color: #283618;
+  color: white;
+  margin: 20%;
+
+  font-size: 38;
+
+  padding: 5%;
+  width: 50%;
+  height: 35%;
+}
+
+p {
+  color: white;
+  background-color: #778B34;
+  /* texto */
+
+  font-size: 23px;
+}
+
+li {
+  color: white;
+}
+
+p {
+  background-color: #283618;
+  padding: 5px;
+  /* caixa de texto */
+}
+
+img {
+  width: 80%;
+  height: 80%;
+  justify-content: center;
+}
+
+ol {
+  text-align: left;
+
+  font-size: 23px;
+}
+
+a {
+  color: #283618;
+  text-decoration: none;
+  display: center;
+  width: 100px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

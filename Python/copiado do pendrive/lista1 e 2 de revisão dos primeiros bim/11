@@ -1,0 +1,11 @@
+import math
+
+c1=float(input("Coeficiente A:"))
+c2=float(input("Coeficiente B:"))
+c3=float(input("Coeficiente C:"))
+delta=math.pow(c2,2)-4*c1*c3
+delta=math.sqrt(delta)
+x1=-c2+delta/2*c1
+x2=-c2-delta/2*c1
+print(f"{x1:.4f}")
+print(f"{x2:.4f}")

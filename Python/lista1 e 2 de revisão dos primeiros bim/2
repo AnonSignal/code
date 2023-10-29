@@ -1,0 +1,5 @@
+graus=int(input("Quantos graus está lá fora?"))
+if graus >=23 and graus <=30:
+    print("Parece estar bom!")
+else:
+    print("Melhor não!")

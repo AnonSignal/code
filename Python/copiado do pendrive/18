@@ -1,0 +1,9 @@
+com=input("Informe o tipo de combustível(G/A):")
+quant=int(input("Informe a quantidade de litros:"))
+if com =='G' or com=='g':
+    if quant<=20:
+        des=quant*3.5
+        des=des/100
+        gas=quant*2.50
+        val=gas*des
+        print(f"Valor á pagar:R${val}")

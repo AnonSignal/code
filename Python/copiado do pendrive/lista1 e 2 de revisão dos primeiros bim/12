@@ -1,0 +1,9 @@
+preço=float(input("Preço unitário do produto:"))
+quant=int(input("Quantidade comprada:"))
+din=float(input("Dinheiro recebido:"))
+ptotal=preço*quant
+troco=din-ptotal
+if troco >=0:
+    print("Troco:", troco)
+else:
+    print("Falta dinheiro!", troco , "Reais faltando")

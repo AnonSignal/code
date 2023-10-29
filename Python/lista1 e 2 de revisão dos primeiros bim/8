@@ -1,0 +1,10 @@
+print("digite números diferentes")
+num1=int(input("primeiro:"))
+num2=int(input("segundo:"))
+num3=int(input("terceiro:"))
+if num1>=num2 and num2>=num3:
+    print("menor valor:",num3)
+elif num1>=num2 and num2<=num3:
+    print("menor valor:",num2)
+elif num1<=num2 and num2<=num3:
+    print("menor valor:",num1)

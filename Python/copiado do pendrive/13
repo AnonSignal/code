@@ -1,0 +1,17 @@
+gasto=float(input("Digite o valor gasto:"))
+print("Qual a forma de pagamento desejado?")
+print("1)Á vista(com 10% de desconto)")
+print("2)2 vezes sem juros")
+print("3 até 10 vezes com 3% de juros ao mês(somente para compras acima de R$100,00)")
+op=int(input("forma de pagameno:"))
+if op == 1:
+    preço=gasto*0.10
+    print(f"Valor a pagar:R${preço}")
+elif op == 2:
+    preço=gasto/2
+    print(f"Valor á pagar:R${gasto},pagos em 2 vezes de R${preço}")
+elif op == 3:
+    parcelas=int(input("Quantidade de parcelas:"))
+    if parcelas<=10 and parcelas>=3:
+        preço=gasto/parcelas
+        print(f"Valor á pagar:R${gasto},pagos em 2 vezes de R${preço}")

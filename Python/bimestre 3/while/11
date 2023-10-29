@@ -1,0 +1,7 @@
+num = int(input("A Fatoriar: ") )
+reslt=1
+contador=1
+while contador <= num:
+    reslt *= contador
+    contador += 1
+print(reslt)

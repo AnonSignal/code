@@ -1,0 +1,29 @@
+sal=float(input("Digite o salário da pessoa:"))
+if sal<=1000:
+    neo=sal*0.20
+    nsal=sal+neo
+    dif=neo-sal
+    print(f"Novo salário:R${nsal}")
+    print(f"Aumento de R${dif}")
+    print("Porcentagem:20%")
+if sal>1000 and sal<=3000:
+    neo=sal*0.15
+    nsal=sal+neo
+    dif=neo-sal
+    print(f"Novo salário:R${nsal}")
+    print(f"Aumento de R${dif}")
+    print("Porcentagem:15%")
+if sal>3000 and sal<=8000:
+    neo=sal*0.10
+    nsal=sal+neo
+    dif=neo-sal
+    print(f"Novo salário:R${nsal}")
+    print(f"Aumento de R${dif}")
+    print("Porcentagem:10%")
+if sal>8000:
+    neo=sal*0.15
+    nsal=sal+neo
+    dif=neo-sal
+    print(f"Novo salário:R${nsal}")
+    print(f"Aumento de R${dif}")
+    print("Porcentagem:5%")

@@ -1,0 +1,13 @@
+ano=1995
+sal=1000
+pct=0.015
+while ano<=2023:
+    res=sal*pct
+    sal=sal+res
+    print("Ano:" , ano)
+    print("porcentagem:" , pct)
+    pct=pct*2
+    print(f"salário:{sal:.2f}")
+    ano=ano+1
+    print("_________________________________________________________________________________________")
+    

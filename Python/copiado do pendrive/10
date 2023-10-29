@@ -1,0 +1,7 @@
+glic=int(input(""))
+if glic<=100:
+    print("Classificação:normal")
+if glic<=100:
+    print("Classificação:elevado")
+if glic>100:
+    print("Classificação:diabetes")

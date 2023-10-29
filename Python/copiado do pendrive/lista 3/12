@@ -1,0 +1,9 @@
+qna=input("Deseja fazer uma adição?(s/n)")
+while qna=="s":
+    soma=int(input("Primeiro número:"))
+    caixa=soma+1
+    soma=int(input("Segundo número:"))
+    soma=caixa+soma
+    soma-=1
+    print(soma)
+    qna=input("Deseja fazer mais uma adição?(s/n)")

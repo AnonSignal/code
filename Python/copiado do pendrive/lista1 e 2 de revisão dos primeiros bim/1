@@ -1,0 +1,5 @@
+graus=int(input("Quantos graus tem o paciente?"))
+if graus >=37:
+    print("Parece estar com febre...")
+else:
+    print("Tudo certo!")

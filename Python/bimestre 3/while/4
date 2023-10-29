@@ -1,0 +1,9 @@
+n1=int(input("Primeiro número:"))
+n2=int(input("Segundo número:"))
+contador=1
+mult=0
+print(0)
+while mult<n2:
+    mult=n1*contador
+    print(mult)
+    contador=contador+1

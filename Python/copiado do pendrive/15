@@ -1,0 +1,19 @@
+code=int("Informe o código do produto:")
+quant=int(input("Informe a quantidade comprada:"))
+if code==1:
+    preço=quant*5
+    print(f"Valor á pagar:{preço:.2f}")
+if code==2:
+    preço=quant*3.50
+    print(f"Valor á pagar:{preço:.2f}")
+if code==3:
+    preço=quant*4.80
+    print(f"Valor á pagar:{preço:.2f}")
+if code==4:
+    preço=quant*8.90
+    print(f"Valor á pagar:{preço:.2f}")
+if code==5:
+    preço=quant*7.32
+    print(f"Valor á pagar:{preço:.2f}")
+else:
+    print("Código inválido!")

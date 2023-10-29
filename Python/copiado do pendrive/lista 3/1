@@ -1,0 +1,5 @@
+n=int(input("Número?"))
+contador=0
+while contador<=n:
+    print(contador)
+    contador+=2

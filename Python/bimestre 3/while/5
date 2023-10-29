@@ -1,0 +1,8 @@
+contador=1
+contadorN=1
+limit=int(input("Até quando deve-se fazer contas?"))
+while contador<=limit:
+    contadorN2=contadorN+contador
+    print(f"O dobro de {contador} é {contadorN2}")
+    contador=contador+1
+    contadorN=contadorN+1

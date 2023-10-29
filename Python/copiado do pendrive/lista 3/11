@@ -1,0 +1,5 @@
+n=int(input("Número:"))
+c=1
+while c<=n:
+    print(f"O triplo de {c} é {c*3}")
+    c+=1

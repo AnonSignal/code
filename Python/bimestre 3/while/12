@@ -1,0 +1,15 @@
+quant=int(input("Quantas pessoas:"))
+contador=1
+num2=0
+while contador<=quant:
+    num=float(input("Idade:"))
+    num2=num2+num
+    contador=contador+1
+media=num2/quant
+print("média:" , media)
+if media<=25:
+    print("A média desta turma é jovem")
+elif media>=26 and media<=60:
+    print("A média desta turma é adulta")
+if media>60:
+    print("A média desta turma é idosa")

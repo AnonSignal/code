@@ -1,0 +1,8 @@
+base=int(input("Número:"))
+exp=int(input("Quantidade:"))
+contador=0
+powe=1
+while contador<=exp:
+    contador=contador+1
+    powe=powe*base
+print(powe)

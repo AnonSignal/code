@@ -1,0 +1,6 @@
+contador=0
+n=int(input("Qual tabuada?"))
+while contador<=10:
+    tab=n*contador
+    print(tab)
+    contador=contador+1

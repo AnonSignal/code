@@ -1,0 +1,16 @@
+ano=1995
+sal=float(input("Salário inicial?: R$ "))
+pct=0.015
+print("______________________________________________________________________")
+while ano<=2023:
+    res=sal*pct
+    sal=sal+res
+    print("Ano:" , ano)
+    print()
+    print("porcentagem:" , pct)
+    pct=pct*2
+    print()
+    print(f"salário: R$ {sal:.2f}")
+    ano=ano+1
+    print("_________________________________________________________________________________________")
+    

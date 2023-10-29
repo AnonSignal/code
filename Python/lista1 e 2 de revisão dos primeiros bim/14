@@ -1,0 +1,8 @@
+uni=input("Qual escala será usada? (C/F)?")
+valor=float(input("informe a temperatura:"))
+if uni == 'C' or uni == 'c':
+    f=(valor/(5/9))+32
+    print(f"temperatura em farenheit:{f}")
+elif uni == 'F' or uni =='f':
+    c=(5/9)*(valor-32)
+    print(f"temperatura em celsius:{c}")
